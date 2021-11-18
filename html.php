@@ -8,20 +8,23 @@
   
 		
 		<body>
-			
+	
+
 			<div id="PageCentrale">
 				<div id="BandeMenuHaut" class="ParamOpaciteMenu">
 					<ul id="MenuRubriques">
-					<li class="titre">Matteo TRABELSI<li>
-						<li id="active"><a href="#" id="current">A propos</a></li>
-						
-						<li><a href="#">compétence</a></li>
-						<li><a href="#">Expérience</a></li>
-						<li><a href="#">Formation</a></li>
-						<li><a href="#">Compétence</a></li>
+						<li class="titre">Matteo TRABELSI<li>
+						<?php
+							$content=file_get_contents('yaml.yml');
+							$menu=yaml_parse($content)['menu'];
+							foreach($menu as $item){
+								echo "<li class='titre' ><a href='#'>$item</a></li>";
+							}
+						?>
 					</ul>
 				</div>
 			</div>
 	
+			
 		</body>
 	</html>

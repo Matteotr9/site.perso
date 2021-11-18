@@ -1,7 +1,11 @@
+
+
+
+
 .titre{
 color: limegreen;
-margin-right:28%;
 margin-left:10px;
+
 }
 
 #PageCentrale {
@@ -32,7 +36,7 @@ margin-left:10px;
   
 /********************************************************/  
   
- ul#MenuRubriques
+ul#MenuRubriques
 {
 margin-left: 0px;
 padding-left: 0;
@@ -41,12 +45,15 @@ white-space: nowrap;
 
 #MenuRubriques li
 {
+
 display: inline;
 list-style-type: none;
 }
 
 #MenuRubriques a {
+	
 padding: 3px 10px;
+
 }
 
 #MenuRubriques a:link, #MenuRubriques a:visited
@@ -61,4 +68,5 @@ background-color: #102D49;
 text-decoration: none;
 color: limegreen;
 background-color: #1E5388;
+
 }
