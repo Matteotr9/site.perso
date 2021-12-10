@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 		<head>
@@ -17,7 +18,7 @@
 								$content=file_get_contents('yaml.yml');
 								$menu=yaml_parse($content)['menu'];
 								foreach($menu as $item){
-									echo "<li class='titre'><a href='#'>$item</a></li>";
+									echo "<li class='titre'><a href='$item.html'>$item</a></li>";
 								}
 					   ?>
 					</ul>
