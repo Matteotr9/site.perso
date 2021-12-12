@@ -1,7 +1,8 @@
 
 .titre{
 color: limegreen;
-margin-left:150px;
+margin-left:40px;
+font-family: Chalkduster, fantasy;
 
 }
 
@@ -30,9 +31,9 @@ margin-left:150px;
     filter : alpha(opacity=90); /* code en plus pour IE9 */
     opacity: 0.9;
   }
-  
-/********************************************************/  
-  
+
+/********************************************************/
+
 ul#MenuRubriques
 {
 margin-left: 0px;
@@ -48,8 +49,8 @@ list-style-type: none;
 }
 
 #MenuRubriques a {
-	
-padding: 3px 12px;
+
+padding: 2px 65px;
 
 }
 
@@ -57,7 +58,7 @@ padding: 3px 12px;
 {
 text-decoration: none;
 color: limegreen;
-background-color: #102D49;
+
 }
 
 #MenuRubriques a:hover
@@ -65,5 +66,67 @@ background-color: #102D49;
 text-decoration: none;
 color: limegreen;
 background-color: #1E5388;
+
+}
+
+ #centrer {
+   text-align: center;
+
+ }
+
+ #centrer h1{
+   color: #6d071a;
+
+ }
+
+ body{
+   background-color: gray;
+
+ }
+
+.fa-linkedin {padding: 20px;
+  background: #007bb5;
+  color: white;
+  margin-left:1290px;
+
+}
+
+.fa {padding: 20px;
+font-size: 20px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+border-radius: 10%; }
+
+.fab {padding: 20px;
+font-size: 20px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+border-radius: 10%; }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-discord {padding: 20px;
+background: #738A;
+color: white;
+
+}
+
+#BandeMenuBas{
+position: fixed;
+padding: 10px 10px 10px 10px;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 60px;
+background: #111111;
+
+}
+
+#décalagauche{
+  float:left;
 
 }
