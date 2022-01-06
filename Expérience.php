@@ -5,9 +5,9 @@
     <title>Expérience</title>
 
   </head>
-  <body>
-    <?php include "Index.php";
-    ?>
+   <body>
+		<?php include "index.php";
+		?>
           <center>
                 <div id="centrer">
                   <br><br><br><h1>Expérience</h1></br></br></br>
@@ -26,5 +26,5 @@
                   </div>
           </center>
 
-  </body>
+	</body>
 </html>

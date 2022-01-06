@@ -3,52 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>Contact</title>
-    <style>body {
-background: #FFD9D9;
-font-family: Montserrat, "sans-serif";
-display: flex;
-justify-content: center;
-color: #303030;
-}
+    <style>
+	body {
+	background: #FFD9D9;
+	font-family: Montserrat, "sans-serif";
+	display: flex;
+	justify-content: center;
+	color: #303030;
+	}
 
-.contactez-nous {
-width: 700px;
-border: 1px solid;
-border-radius: 8px;
-padding: 0 50px 0 50px;
-background: white;
-}
+	.contactez-nous {
+	width: 700px;
+	border: 1px solid;
+	border-radius: 8px;
+	padding: 0 50px 0 50px;
+	background: white;
+	}
 
-.contactez-nous > h1 {
-font-weight: 500;
-}
+	.contactez-nous > h1 {
+	font-weight: 500;
+	}
 
-.contactez-nous > p {
-font-weight: 300;
-}
+	.contactez-nous > p {
+	font-weight: 300;
+	}
 
-form div {
-width: 100%;
-display: flex;
-flex-direction: column;
-min-height: 83px;
-margin-top: 25px;
-}
+	form div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 83px;
+	margin-top: 25px;
+	}
 
-form div > label {
-margin-bottom: 7px;
-font-weight: 600;
-}
+	form div > label {
+	margin-bottom: 7px;
+	font-weight: 600;
+	}
 
-form div > input, form div > select, form div > textarea {
-background: #FFD9D9;
-border: none;
-border-radius: 5px;
-font-size: 16px;
-font-weight: 500;
-font-family: Montserrat, "sans-serif";
-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
-}
+	form div > input, form div > select, form div > textarea {
+	background: #FFD9D9;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: Montserrat, "sans-serif";
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+	}
 
 form div > input, form div > select {
 height: 50px;
@@ -101,7 +102,7 @@ color: #303030;
     </style>
   </head>
   <body>
-    <?php include "Index.php";
+    <?php include "index.php";
     ?>
   <div id="centrer">
       <br><br><br><h1>Formulaire de Contact<h1></br></br></br>
@@ -109,27 +110,27 @@ color: #303030;
     <a href="mailto:matteo.trabelsi9@gmail.com">Contactez-moi !</a>
   <h1>Contactez-nous</h1>
 
-<form method="POST" action="http://matteo.trabelsi9@gmail.com">
-  <div>
-  <label for="nom">Votre nom</label>
-  <input type="text" id="nom" name="nom" placeholder="Martin" required>
-  </div>
-  <div>
-  <label for="email">Votre e-mail</label>
-  <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
-  </div>
+	<form method="POST" action="http://matteo.trabelsi9@gmail.com">
+		<div>
+			<label for="nom">Votre nom</label>
+			<input type="text" id="nom" name="nom" placeholder="Martin" required>
+		</div>
+		<div>
+			<label for="email">Votre e-mail</label>
+			<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+		</div>
 
-  <div>
-  <label for="message">Votre message</label>
-  <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
-  </div>
-  <div>
-  <button type="submit">Envoyer mon message</button>
-  </div>
-  </form>
-  </div>
-</div>
+		<div>
+			<label for="message">Votre message</label>
+			<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+		</div>
+		<div>
+			<button type="submit">Envoyer mon message</button>
+		</div>
+		</form>
+		</div>
+		</div>
 
 
     </body>
-  </html>
+ </html>
