@@ -34,7 +34,7 @@
 								<div id="BandeMenuBas">
 
 										<a href="https://www.linkedin.com/in/matteo-trabelsi-a31226214" class="fa fa-linkedin"></a>
-										<a href="https://www.votre_url.com" class="fab fa-discord"></a>
+										<a href="matteotr#6752" class="fab fa-discord"></a>
 								</div>
 	</footer>
 </html>
