@@ -22,7 +22,7 @@
                   <p>Réalisation: Je m'occupe de l'apprentissage des demandes informatique de l'entreprise.</p>
                   <p>Date de début : 28 Aout 2021 jusqu'au 28 Aout 2023 .<p>
                   <p> La durée est de deux ans car j'effectue l'alternance en tant que BTS SIO.<p>
-                    <li><a href='Mon CV'>Mon CV</a></li>
+                    <li><a href='documentpdf/Mon CV.pdf'>Mon CV</a></li>
                   </div>
           </center>
 

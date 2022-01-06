@@ -158,7 +158,7 @@ background: #111111;
   										<li class="titre"><a href='Accueil.php'>Matteo Trabelsi</a></li>
   										<li class="titre"><a href='A_propos.php'>A propos</a></li>
   										<?php
-  												$content=file_get_contents('yaml.yml');
+  												$content=file_get_contents('fichieryml/yaml.yml');
   												$menu=yaml_parse($content)['menu'];
   												foreach($menu as $item){
   													echo "<li class='titre'><a href='$item.php'>$item</a></li>";
@@ -179,7 +179,7 @@ background: #111111;
     </div>
       <center>
         <div id="gauches">
-          <img src="stu.jfif" />
+          <img src="image/stu.jfif" />
             <h2><strong>BTS Services Informatique</strong>
             <h2><strong> Supavenir Saint-Ursule</strong>
               <br>En cours</br> </h2>

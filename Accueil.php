@@ -10,10 +10,10 @@
           <br>
           <br>
           <div id="centrer">
-            <h1>	Bienvenue sur mon Portfoliot</h1>
+            <h1>Bienvenue sur mon Portfoliot</h1>
             <h2><U>"Dans la vie on ne fait pas ce que l'on veut mais on est responsable de ce que l'on est."</U>
-            <h2>Actuellement en BTS SIO en alternance ,Passionné d'informatique toujours à la recherche du progrès.</h2>
-            <img src="OIP.jfif" />
+            <h2>Actuellement en BTS SIO en alternance, Passionné d'informatique toujours à la recherche du progrès.</h2>
+            <img src="image/OIP.jfif" />
           </div>
         </br>
         </br>
