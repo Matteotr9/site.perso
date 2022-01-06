@@ -1,0 +1,4 @@
+compétences:
+      - <p>Niveau de compétences en html et Css :<progress id="avancement" value="60" max="100"></progress></p>
+      - <p>Niveau de compétences en Python :<progress id="avancement" value="20" max="100"></progress></p>
+      - <p>Niveau de compétences en Php et C++ :<progress id="avancement" value="20" max="100"></progress></p>
