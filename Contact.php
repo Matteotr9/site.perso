@@ -16,8 +16,9 @@
 	width: 700px;
 	border: 1px solid;
 	border-radius: 8px;
-	padding: 0 50px 0 50px;
+	padding: 0 40px 0 50px;
 	background: white;
+	
 	}
 
 	.contactez-nous > h1 {
@@ -105,7 +106,7 @@ color: #303030;
     <?php include "index.php";
     ?>
   <div id="centrer">
-      <br><br><br><h1>Formulaire de Contact<h1></br></br></br>
+      <br><br><h1>Formulaire de Contact<h1></br></br>
   <div class="contactez-nous">
     <a href="mailto:matteo.trabelsi9@gmail.com">Contactez-moi !</a>
   <h1>Contactez-nous</h1>
