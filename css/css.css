@@ -36,7 +36,7 @@ font-family: Chalkduster, fantasy;
 ul#MenuRubriques
 {
 margin-left: 0px;
-padding-left: 150px;
+padding-left: 0%;
 white-space: nowrap;
 }
 
@@ -116,7 +116,7 @@ color: white;
 
 #BandeMenuBas{
 position: fixed;
-padding: 10px 10px 10px 399px;
+padding: 10px 10px 10px 1%;
 bottom: 0px;
 left: 0px;
 width: 100%;
@@ -136,5 +136,3 @@ margin-top: -15px;
 float:auto;
 
 }
-
-
