@@ -52,7 +52,7 @@ font-family: Chalkduster, fantasy;
 ul#MenuRubriques
 {
 margin-left: 0px;
-padding-left: 0px;
+padding-left: 150px;
 white-space: nowrap;
 }
 
@@ -132,7 +132,7 @@ color: white;
 
 #BandeMenuBas{
 position: fixed;
-padding: 10px 10px 10px 10px;
+padding: 10px 10px 10px 195px;
 bottom: 0;
 left: 0;
 width: 100%;
@@ -143,6 +143,7 @@ background: #111111;
 
 #décalagauche{
   float:left;
+ 
 
 }
 </style>
