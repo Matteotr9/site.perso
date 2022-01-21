@@ -18,6 +18,16 @@ include 'Submit.php';
   text-align: center;
   margin: 35px 0 20px 0 !important;
 }
+
+#form_login {
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}
+
+
 </style>
 <body>
 
@@ -27,7 +37,7 @@ include 'Submit.php';
 
 
            </div>
-       <form  action="https://formsubmit.co/b7f4b0d16670afcedbed1d9035ee3090" method="POST"/>
+       <form id="form_login" action="https://formsubmit.co/b7f4b0d16670afcedbed1d9035ee3090" method="POST"/>
          <input type="text" name="name" placeholder="Nom" required>
          <input type="email" name="email" placeholder="Email" required>
          <input type="text" name="text" placeholder="Numéro de téléphone" required max="10">
