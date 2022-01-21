@@ -27,7 +27,7 @@ include 'Submit.php';
 
 
            </div>
-       <form  action="https://formsubmit.co/b7f4b0d16670afcedbed1d9035ee3090 " method="POST"/>
+       <form  action="https://formsubmit.co/b7f4b0d16670afcedbed1d9035ee3090" method="POST"/>
          <input type="text" name="name" placeholder="Nom" required>
          <input type="email" name="email" placeholder="Email" required>
          <input type="text" name="text" placeholder="Numéro de téléphone" required max="10">
